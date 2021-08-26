@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Alarm : MonoBehaviour
 {
-    [SerializeField] SoundAdjuster _soundAdjuster;
+    [SerializeField] private SoundAdjuster _soundAdjuster;
 
     private void OnTriggerEnter(Collider collider)
     {
